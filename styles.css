@@ -109,17 +109,22 @@ body {
     font-size: 1.5rem;
     line-height: 1.2;
     width: 40ch;
+    letter-spacing: 1.5px;
 }
 
 .info-form {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0 0 ;
+   
 }
 .info-form h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color:rgb(212, 212, 212);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color:rgb(180, 180, 180);
     padding: 0 0 1.5rem;
+    font-family: "Montserrat";
+    letter-spacing: 1.5px;
 }
 .form-input-fields {
     display: grid;
@@ -136,7 +141,7 @@ body {
     margin: 8px 0 0;
     height: 32px;
     width: 100%;
-    color: #F94C66;
+    color: #53BF9D;
     font-size: 1.2rem;
 }
 .mismatch {
@@ -144,8 +149,9 @@ body {
 }
 .form-field input:focus {
     outline: none;
-    background-color: rgb(101, 101, 101);
-    color: #53BF9D;
+    background-color: rgb(46, 46, 46);
+    color: #F94C66;
+    text-align: center;
 }
 .btn {
     margin: 1rem 0 0;
@@ -165,6 +171,8 @@ body {
 .login a {
     text-decoration: none;
     color:#F94C66;
+    font-weight: bold;
+    font-size: larger;
 }
 
 

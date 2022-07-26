@@ -5,8 +5,8 @@ const mismatch = document.querySelector(".mismatch");
 
 userForm.addEventListener("submit", (e) => {
     if (confirmPassword.value !== password.value) {
-        e.preventDefault()
+        e.preventDefault();
         mismatch.textContent = "Password mismatch!";
     }
-})
+});
 
