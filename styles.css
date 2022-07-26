@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%; */
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body {
+    position: relative;
+    background-color: black;
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main > .sign-up-form {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image-section {
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/monkey.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 96px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.logo img {
+    width: 64px;
+    height: 64px;
+}
+.logo p {
+    font-size: 2rem;
+    margin-left: 16px;
+    font-weight: bold;
+    color: #53BF9D;
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 0 32px;
+}
+.description {
+    color: rgb(180, 180, 180);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    width: 40ch;
+}
+
+.info-form {
+    display: flex;
+    flex-direction: column;
+}
+.info-form h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(212, 212, 212);
+    padding: 0 0 1.5rem;
+}
+.form-input-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+.form-field label {
+    color: #53BF9D;
+}
+.form-field input {
+    background-color: #000;
+    border: 0.1px solid #53BF9D;
+    margin: 8px 0 0;
+    height: 32px;
+    width: 100%;
+    color: #F94C66;
+    font-size: 1.2rem;
+}
+.mismatch {
+    color: red;
+}
+.form-field input:focus {
+    outline: none;
+    background-color: rgb(101, 101, 101);
+    color: #53BF9D;
+}
+.btn {
+    margin: 1rem 0 0;
+    width: max-content;
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    background-color: #F94C66;
+    color: white;
+    cursor: pointer;
+}
+
+.login {
+    border-top: 0.5px solid rgb(111, 111, 111);
+    padding: 1rem 0 0;
+    color:rgb(180, 180, 180);
+}
+.login a {
+    text-decoration: none;
+    color:#F94C66;
+}
+
+

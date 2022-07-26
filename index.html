@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sign-up-form">
+            <div class="image-section">
+                <div class="logo">
+                    <img src="images/monkey.png" alt="mouse">
+                    <p>Sing Monkey</p>
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="description">
+                    <p>
+                        This is not a real online service. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Mollitia, impedit.
+                    </p>
+                </div>
+                <form action="#" class="info-form">
+                    <h5>Let's do this!</h5>
+                    <div class="form-input-fields">
+                        <div class="form-field">
+                            <label for="fname">First Name *</label><br />
+                            <input name="firstName" id="fname" required type="text">
+                        </div>
+                        <div class="form-field">
+                            <label for="lname">Last Name *</label><br />
+                            <input name="lastName" id="lname" required type="text">
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email *</label><br />
+                            <input name="emailAddress" id="email" required type="email">
+                        </div>
+                        <div class="form-field">   
+                            <label for="phone">Mobile Phone *</label><br />
+                            <input name="mobilePhone" id="phone" required type="text">
+                        </div>
+                        <div class="form-field">
+                            <label for="password">Password *</label><br />
+                            <input name="userPassword" id="password" required type="password">
+                            <small class="mismatch"></small>
+                        </div>
+                        <div class="form-field">    
+                            <label for="cpassword">Confirm Password *</label><br />
+                            <input name="confirmPass" id="cpassword" required type="password">
+                        </div>
+                    </div>
+                    <button class="btn" type="submit" >Create Account</button>
+                </form>
+                <div class="login">
+                    <p> Already have an account? <a href="#">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
